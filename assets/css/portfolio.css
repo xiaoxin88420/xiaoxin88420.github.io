@@ -1,0 +1,93 @@
+body{
+    background-color:lightgrey;
+}
+
+nav{
+    width: 100%;
+    height:30px;
+    background-color: bisque;
+}
+
+#myname{
+    width: 120px;
+    height: 30px;
+    padding:5px;
+    background-color: aquamarine;
+    font-family: 'Pacifico', cursive;
+    float: left;
+    margin-left: 20px;
+}
+
+#button1, #button2, #button3{
+    height:30px;
+    font-family: 'Modak', cursive;
+}
+
+#float-container{
+    padding:20px;
+    margin-bottom: 10px;
+}
+
+#float-child{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+#footer{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    bottom: 0;
+    position: fixed;
+    background-color: skyblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:655px) {
+    #myname{
+        margin-left: 0;
+    }
+
+    #float-container{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #float-child{
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 368px){
+    #myname{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #threebuttons{
+        width: 100%;
+        float:left;
+        text-align: center;
+    }
+    
+    #float-container{
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #float-child{
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+}
